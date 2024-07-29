@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/PS1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:visibility="visible"
+        android:text="PS1"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PS1A"
+        android:layout_margin="50dp"
+        android:layout_below="@+id/PS1"
+        android:text="PS1A"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:id="@+id/PS5"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_below="@+id/PS1A"
+        android:text="PS5"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Level"
+        android:layout_alignParentLeft="true"
+        android:text="Level"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/PS5"
+        android:layout_margin="20dp"/>
+
+   <com.google.android.material.button.MaterialButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/Density"
+       android:text="Density"
+       android:layout_below="@+id/Level"
+       android:layout_centerHorizontal="true"
+       android:layout_margin="50dp"
+       android:textSize="32dp"
+       android:textColor="@color/black"
+       android:textStyle="bold"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Density"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:text="Flow"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>

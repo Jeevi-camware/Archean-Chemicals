@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".SixtyfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixtyfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixtythreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixtytwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixtyoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixtyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftynineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftyeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftysevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftysixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftyfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftyfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftythreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftytwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftyoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortynineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortyeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortysevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortysixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortyfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortyfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortythreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortytwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortyoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirtynineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirtyeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirtysevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirtysixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirtyfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirtyfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirtythreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirtytwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirtyoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirtyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwentynineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwentyeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwentysevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwentysixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwentyfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwentyfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwentythreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwentytwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwentyoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwentyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NineteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EighteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeventeenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FifteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwelveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ElevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TenthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinethActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EigthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeventhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixthActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.ACTION_SIXTH_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fifthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <!--Brand Name -->
+
+    <TextView
+        android:id="@+id/ArcheanChemicals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:gravity="center"
+        android:text="Archean Chemicals"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+ <!-- Login Field -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login"
+        android:layout_below="@+id/ArcheanChemicals"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"/>
+
+
+ <!--Employee Code -->
+
+    <EditText
+        android:id="@+id/EmployeeCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="18dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="Employee Code"
+        android:importantForAutofill="no"
+        android:inputType="number|numberPassword"
+        android:padding="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+      <!--Button-->
+
+     <Button
+         android:id="@+id/okButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/EmployeeCode"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="75dp"
+         android:layout_marginLeft="18dp"
+         android:layout_marginRight="18dp"
+         android:textColor="@color/black"
+         android:textStyle="bold"
+         android:textSize="32sp"
+         android:text="SUBMIT"/>
+
+ <ImageView
+     android:id="@+id/logo"
+     android:layout_width="wrap_content"
+     android:layout_height="199dp"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="5dp"
+     android:layout_centerHorizontal="true"
+     android:src="@drawable/logo_backup"
+     app:srcCompat="@drawable/logo_backup" />
+
+</RelativeLayout>
